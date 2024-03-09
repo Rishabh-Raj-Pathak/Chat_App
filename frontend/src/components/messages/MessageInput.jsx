@@ -14,8 +14,8 @@ function MessageInput() {
   };
 
   return (
-    <form action="" className="px-4 my-3" onSubmit={handleSubmit}>
-      <div className="x-full relative">
+    <form className="px-4 my-3" onSubmit={handleSubmit}>
+      <div className="w-full relative">
         <input
           type="text"
           className="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 order-gray-600 text-white"

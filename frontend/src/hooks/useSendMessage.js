@@ -6,9 +6,9 @@ const useSendMessage = () => {
   const [loading, setLoading] = useState(false);
   const { messages, setMessages, selectedConversation } = useConversation();
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-  },[messages])
+  // },[messages])
   const sendMessage = async (message) => {
     // console.log(message);
     setLoading(true);

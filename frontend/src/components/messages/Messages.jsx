@@ -13,7 +13,7 @@ function Messages() {
     setTimeout(() => {
       lastMessageRef.current?.scrollIntoView({ behavior: "smooth" });
     }, 100);
-  }, [messages, messages.length]);
+  }, [messages]);
 
   return (
     <div className="px-4 flex-1 overflow-auto">
