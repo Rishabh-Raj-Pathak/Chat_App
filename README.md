@@ -1,4 +1,4 @@
-**Chatify : Real-Time Chat Application**
+**Chatify**
 =============================
 
 Live Demo : https://app-chat-sinr.onrender.com
